@@ -1,0 +1,51 @@
+name: "🐞 Bug report"
+description: Something isn't working the way it should
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug! Please fill in as much as you can — details make it far easier to fix.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you see? What did you expect to happen instead?
+      placeholder: "The player passed through the ring but no point was scored…"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: How can I make it happen again?
+      placeholder: |
+        1. Start a run
+        2. Jump toward the pink star
+        3. …
+    validations:
+      required: false
+  - type: input
+    id: watch
+    attributes:
+      label: Watch model
+      description: Which Garmin watch are you playing on?
+      placeholder: "Fenix 7 / Forerunner 265 / Venu 2 …"
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      description: Shown on the OrbitJumper listing in the Connect IQ Store.
+      placeholder: "1.4.0"
+    validations:
+      required: false
+  - type: textarea
+    id: media
+    attributes:
+      label: Screenshot or recording (optional)
+      description: A photo or screen recording of the watch really helps for visual bugs. Drag files here to attach.
+    validations:
+      required: false

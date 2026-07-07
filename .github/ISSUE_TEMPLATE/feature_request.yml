@@ -1,0 +1,32 @@
+name: "💡 Feature request"
+description: Suggest a new feature or an improvement
+title: "[Idea]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Got an idea to make OrbitJumper better? I'd love to hear it.
+  - type: textarea
+    id: idea
+    attributes:
+      label: What's your idea?
+      description: Describe the feature or change you'd like to see.
+      placeholder: "It would be great if there were a daily challenge mode…"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does it solve?
+      description: What's frustrating or missing today that this would address?
+    validations:
+      required: false
+  - type: input
+    id: watch
+    attributes:
+      label: Watch model (optional)
+      description: Helpful if your idea is specific to a device.
+      placeholder: "Fenix 7 / Forerunner 265 …"
+    validations:
+      required: false
