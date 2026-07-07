@@ -25,8 +25,7 @@ itself is developed privately.
 
 OrbitJumper runs on Garmin watches via the Connect IQ Store.
 
-> **Store link:** _add your Connect IQ Store URL here_
-> (e.g. `https://apps.garmin.com/apps/<your-app-id>`)
+[**⌚ Get OrbitJumper on the Connect IQ Store**](https://apps.garmin.com/apps/909812b5-4688-4d1d-a716-535eb443585c)
 
 ## 📸 Screenshots
 
