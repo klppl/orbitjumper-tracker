@@ -18,7 +18,7 @@ itself is developed privately.
 [**▶ Watch the demo on YouTube**](https://www.youtube.com/watch?v=hcG3NlXmpVc)
 
 <p align="center">
-  <img src="docs/demo.gif" alt="OrbitJumper gameplay" width="320">
+  <img src="docs/demo.gif" alt="OrbitJumper gameplay">
 </p>
 
 ## 📲 Get the app
