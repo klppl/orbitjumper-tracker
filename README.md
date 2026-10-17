@@ -4,6 +4,8 @@
 
 # OrbitJumper — Feedback & Issue Tracker
 
+[![License: Lagom](https://img.shields.io/badge/license-lagom-9E2B25)](https://klppl.github.io/lagom-license/)
+
 This is the public home for **OrbitJumper**, a one-input endless orbit-jumping
 game for Garmin watches. Orbit a star, press start (or tap) to fling yourself
 along the orbital tangent, and pass through the next star's capture ring to
